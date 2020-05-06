@@ -1,15 +1,15 @@
 {
-  "name": "react-native-webview",
-  "description": "React Native WebView component for iOS, Android, macOS, and Windows",
+  "name": "react-native-webview-bypass-ssl-errors",
+  "description": "React Native WebView component for iOS, Android, macOS, and Windows. Uses for local development with self-signed SSL certificates or with any endpoints that have some bad SSL certificates",
   "main": "index.js",
   "typings": "index.d.ts",
-  "author": "Jamon Holmgren <jamon@infinite.red>",
+  "author": "Sergii Borachuk <sergeyborachuk@gmail.com> (https://github.com/Suteki/)",
   "contributors": [
-    "Thibault Malbranche <malbranche.thibault@gmail.com>"
+    "Sergii Borachuk <sergeyborachuk@gmail.com>"
   ],
   "license": "MIT",
   "version": "9.4.0",
-  "homepage": "https://github.com/react-native-community/react-native-webview#readme",
+  "homepage": "https://github.com/Suteki/react-native-webview-bypass-ssl-errors#readme",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "start:android": "react-native run-android --root example/",
@@ -71,7 +71,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-native-community/react-native-webview.git"
+    "url": "git+https://github.com/Suteki/react-native-webview-bypass-ssl-errors.git"
   },
   "files": [
     "android",
@@ -82,6 +82,6 @@
     "lib",
     "index.js",
     "index.d.ts",
-    "react-native-webview.podspec"
+    "react-native-webview-bypass-ssl-errors.podspec"
   ]
 }
