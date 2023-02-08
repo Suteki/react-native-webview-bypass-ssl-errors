@@ -4,6 +4,7 @@
 
 # Xcode
 #
+.xcode.env
 build/
 *.pbxuser
 !default.pbxuser
@@ -57,3 +58,5 @@ lib/
 .classpath
 .project
 .settings/
+msbuild.binlog
+example/msbuild.binlog
