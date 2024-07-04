@@ -9,7 +9,7 @@
     "Sergii Borachuk <sergeyborachuk@gmail.com>"
   ],
   "license": "MIT",
-  "version": "11.26.1",
+  "version": "11.26.1-fix-2024-Jul",
   "homepage": "https://github.com/Suteki/react-native-webview-bypass-ssl-errors#readme",
   "scripts": {
     "android": "react-native run-android",
